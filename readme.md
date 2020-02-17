@@ -17,4 +17,4 @@ Command line interface (CLI) application for determining the parameters necessar
 - Example: `transform 'a' .\data\dec_1_027-known.txt .\data\dec_1_027-observed.txt`
 
 ## Lab Report
-See `report.md` in the `report` directory.
+See ![report.md](./report/report.md) in the ![report](./report) directory.
