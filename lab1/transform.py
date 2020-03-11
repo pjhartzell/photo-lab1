@@ -83,7 +83,7 @@ class Transform:
         # Nonlinear parameters
         scale_x = np.sqrt(a**2 + c**2)
         scale_y = np.sqrt(b**2 + d**2)
-        rotation = np.rad2deg(np.arctan(b/a))
+        rotation = np.rad2deg(np.arctan(c/a))
         non_orthog = np.rad2deg(np.arctan((a*b+c*d)/(a*d-b*c)))
         self.nonlinear_params = (scale_x, scale_y, rotation, non_orthog)
     def projective(self):
@@ -125,7 +125,7 @@ class Transform:
         # Nonlinear parameters
         scale_x = np.sqrt(a1**2 + b1**2) # a1 = a, b1 = c in affine
         scale_y = np.sqrt(a2**2 + b2**2) # a2 = b, b2 = d in affine
-        rotation = np.rad2deg(np.arctan(a2/a1))
+        rotation = np.rad2deg(np.arctan(b1/a1))
         non_orthog = np.rad2deg(np.arctan((a1*a2+b1*b2)/(a1*b2-a2*b1)))
         self.nonlinear_params = (scale_x, scale_y, rotation, non_orthog)
 

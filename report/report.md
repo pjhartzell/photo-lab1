@@ -43,7 +43,7 @@ delta y = 123.5343 mm
 NON-LINEAR PARAMETERS
 scale x = 0.01189943
 scale y = 0.01190126
-rotation = 0.0014 degrees
+rotation = -0.0065 degrees
 non-orthogonality = -0.0050 degrees
 
 COORDINATES AND RESIDUALS IN FIDUCIAL SYSTEM (UNITS=mm)
@@ -79,7 +79,7 @@ c2 = -0.0000000042 (plane y coefficnet)
 NON-LINEAR PARAMETERS
 scale x = 0.01189973
 scale y = 0.01190157
-rotation = 0.0014 degrees
+rotation = -0.0065 degrees
 non-orthogonality = -0.0050 degrees
 
 COORDINATES AND RESIDUALS IN FIDUCIAL SYSTEM (UNITS=mm)
@@ -143,7 +143,7 @@ delta y = 123.5180 mm
 NON-LINEAR PARAMETERS
 scale x = 0.01190009
 scale y = 0.01190104
-rotation = -0.0407 degrees
+rotation = 0.0356 degrees
 non-orthogonality = -0.0051 degrees
 
 COORDINATES AND RESIDUALS IN FIDUCIAL SYSTEM (UNITS=mm)
@@ -179,7 +179,7 @@ c2 = 0.0000000008 (plane y coefficnet)
 NON-LINEAR PARAMETERS
 scale x = 0.01189982
 scale y = 0.01190076
-rotation = -0.0407 degrees
+rotation = 0.0356 degrees
 non-orthogonality = -0.0051 degrees
 
 COORDINATES AND RESIDUALS IN FIDUCIAL SYSTEM (UNITS=mm)
